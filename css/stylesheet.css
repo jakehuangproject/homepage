@@ -2,7 +2,7 @@
 /* CSS Document */
 body {
 	font-family: Helvetica, Microsoft YaHei, SimHei;
-	color: #888787;
+	color: #585858;
 	margin: 0px;
 	font-size: normal;
 	font-weight: 300;
@@ -148,24 +148,38 @@ h2, h3 {
 }
 
 #pic1{
-	background-image: url(../images/pic_twff.png) ;
+	background-image: url(../images/interorDesign.png) ;
 }
 
 #pic3 {
-	background-image: url(../images/pic_threeb.png) ;
+	background-image: url(../images/wearbleDesign.jpg) ;
 }
 
 #pic2 {
-	background-image: url(../images/pic_twot.png);
-}
-
-#pic4 {
 	background-image: url(../images/pic_four.png);
 }
 
-#pic5 {
-	background-image: url(../images/pic_five.png);
+#pic4 {
+	background-image: url(../images/platicPollution.jpg);
 }
+
+#pic5 {
+	background-image: url(../images/home@3x.jpg);
+}
+
+#pic6 {
+	background-image: url(../images/packaging1.jpg);
+}
+
+#pic7 {
+	background-image: url(../images/Image2_000.png);
+}
+
+
+#pic8 {
+	background-image: url(../images/des111.JPG);
+}
+
 
 .container-featured {
 	margin: 2%;
@@ -196,11 +210,9 @@ h2, h3 {
 	padding-bottom: 3.5%;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: none solid solid;
+	border-style: solid solid solid;
 	border-color: #C5C5C5 #C5C5C5 #C5C5C5;
-	border-left-width: thin;
-	border-bottom-width: thin;
-	border-right-width: thin;
+	border-width: thin;
 	position: relative;
 }
 
@@ -208,6 +220,8 @@ h2, h3 {
 	text-align: left;
 	margin-left: 3%;
 	margin-right: 3%;
+	line-height: 0.6cm;
+	padding-bottom: 2%;
 }
 
 .img_inpage{
