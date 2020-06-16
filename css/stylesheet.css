@@ -452,14 +452,14 @@ article {
     text-transform: uppercase;
 	border-radius: 5px;
 	background-color: #26a1ff;
-	width: 166px;
+	width: 160px;
 	height: 42px;
 	display: inline-block;
 	text-decoration: none;
 	text-align:center;
 }
 .lxmore_inpage:link {
-	background-color: #65bafc;
+	background-color: #26a1ff;
 }
 .lxmore_inpage:visited {
 	background-color: #26a1ff;
@@ -475,6 +475,30 @@ article {
 .bolder {
 	font-weight: bold;
 }
+
+.iframe-container{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	height: 0;
+  }
+  .iframe-container iframe{
+	position: absolute;
+	top:0%;
+	left: 50%;
+	width: 96%;
+	height: 100%;
+	transform: translate(-50%);
+  }
+
+#floorPlan {
+	border: 1px solid rgb(143, 179, 247);
+}
+
+/* #persView {
+ max-width: 110%;
+} */
+  
 @media screen and (min-width:1200px){
 
 .container {
@@ -722,20 +746,11 @@ margin-bottom: 5%;
 
 
 @media screen and (max-width:582px){
-	h1 {
-		font-size:400%;
-	}
-	
-	.topic-one p {
-		font-size: 250%;
-	}
-	
 	h2 {
 		font-size:28px;
 		line-height: 40%;
 		margin-bottom: 4%;
 	}
-	
 	.featured p {
 	font-size: 15px;
 	padding-bottom: 1%;
@@ -745,6 +760,9 @@ margin-bottom: 5%;
 	font-size: 13px;
 	padding:5px 15px 5px 15px;
 }
+	.topic-one a {
+		color: #21AFE0;
+	}
 
 	
 }
