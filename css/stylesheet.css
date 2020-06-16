@@ -8,7 +8,6 @@ body {
 	font-weight: 300;
 	line-height: 125%;
 	font-size: 105%;
-	word-spacing: 2px
 }
 
 .container {
@@ -671,6 +670,10 @@ header h1 {
 	text-decoration: none;
 	text-align:center;
 }
+
+.more_inpage_nolink{
+	width: 100%;
+} 
 .lxmore_inpage:link {
 	background-color: #39a9ff;
 }
@@ -713,11 +716,28 @@ header h1 {
 .s9 {
 margin-bottom: 5%;
 }
+
+
 }
 
 
 @media screen and (max-width:582px){
-	#bigh2 {
-		font-size: 100px;
+	
+	h2 {
+		font-size:28px;
+		line-height: 40%;
+		margin-bottom: 4%;
 	}
+	
+	.featured p {
+	font-size: 15px;
+	padding-bottom: 1%;
+	margin-top:0;
+}
+	.lxmore {
+	font-size: 13px;
+	padding:5px 15px 5px 15px;
+}
+
+	
 }
