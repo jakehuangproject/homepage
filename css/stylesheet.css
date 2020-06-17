@@ -495,6 +495,10 @@ article {
 	border: 1px solid rgb(143, 179, 247);
 }
 
+#frameOne {
+	border: 1px solid rgb(18, 42, 87);
+}
+
 @media screen and (min-width:1200px){
 
 .container {
