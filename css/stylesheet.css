@@ -53,6 +53,11 @@ body {
 	padding-top: 20px;
 }
 
+h4 {
+	text-align: left;
+	padding-left: 2%;
+}
+
 header h1 {
 	font-family: 'Comfortaa', cursive;
     font-weight: 300;
@@ -262,6 +267,15 @@ h2, h3 {
 	vertical-align: middle;
 }
 
+#imageSize {
+	max-width: 80%;
+}
+
+.borader {
+	border: 1.1px solid rgb(192, 192, 194);
+}
+
+
 #topic-two-img{
     width: 100%;
     background-image: url(../images/../images/sffsf.JPG);
@@ -344,7 +358,7 @@ article {
 }
 
 .pair {
-	width: 50%;
+	width: 40%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -497,6 +511,15 @@ article {
 
 #frameOne {
 	border: 1px solid rgb(18, 42, 87);
+}
+
+.underline {
+	text-decoration: underline;
+	color: #ff771c;
+}
+
+.underline a {
+	color: #ff771c;
 }
 
 @media screen and (min-width:1200px){
