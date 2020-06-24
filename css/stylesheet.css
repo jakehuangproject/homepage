@@ -193,7 +193,7 @@ h2, h3 {
 }
 
 #pic9 {
-	background-image: url(../images/bookcontent.jpg);
+	background-image: url(../images/JakeH_Project-Final_Version.jpg);
 }
 
 .container-featured {
@@ -267,8 +267,25 @@ h2, h3 {
 	vertical-align: middle;
 }
 
+.img_inpage3 {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	margin-top: 3%;
+	/* margin-right: 5%;
+	margin-left: 5%; */
+	margin-bottom: 3%;
+	padding: 0;
+	line-height: normal;
+	vertical-align: middle;
+}
+
 #imageSize {
 	max-width: 80%;
+}
+
+#imageSize2 {
+	max-width: 100%;
 }
 
 .borader {
@@ -360,6 +377,24 @@ article {
 .pair {
 	width: 40%;
 	margin-right: auto;
+	margin-left: auto;
+}
+
+.pair1 {
+	width: 45.5%;
+	margin-right: 1.5%;
+	margin-left: 3%;
+}
+
+.pair2 {
+	width: 45.5%;
+	margin-right:3%;
+	margin-left: 1.5%;
+}
+
+.pair3 {
+	width: 45.5%;
+	margin-right:auto;
 	margin-left: auto;
 }
 
@@ -623,6 +658,18 @@ nav a:hover {
 }
 
 .pair {
+	width: 100%;
+}
+
+.pair1 {
+	width: 100%;
+}
+
+.pair2 {
+	width: 100%;
+}
+
+.pair3 {
 	width: 100%;
 }
 
